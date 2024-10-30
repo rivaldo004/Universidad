@@ -1,0 +1,14 @@
+def entrar_a_la_casa(contraseña):
+    # Definimos la contraseña correcta
+    contraseña_correcta = "mi_contraseña_secreta"
+
+    # Verificamos si la contraseña ingresada es correcta
+    if contraseña == contraseña_correcta:
+        print("¡Bienvenido! La contraseña es correcta.")
+        # Aquí podríamos agregar código para abrir la puerta, activar un sistema de seguridad, etc.
+    else:
+        print("Lo siento, la contraseña es incorrecta. Intente nuevamente.")
+
+# Probamos el algoritmo
+contraseña_ingresada = input("Ingrese la contraseña: ")
+entrar_a_la_casa(contraseña_ingresada)
